@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar"
 import Slide from "../components/Slide"
 import MenuMore from '../components/MenuMore'
 import Comments from '../components/Comments'
+import Footer from '../components/Footer'
 
 import './home.css'
 
@@ -88,6 +89,8 @@ function home() {
       </div>
 
       <Comments />
+
+      <Footer />
     </>
   )
 }
