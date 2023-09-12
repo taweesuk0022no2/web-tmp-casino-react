@@ -8,7 +8,7 @@
 }
 
 .RcmGame {
-    background: linear-gradient(0deg, #000000da,#000000a3),url("../assets/images/bg/BG-02.webp");
+    background: linear-gradient(0deg, #000000da,#000000a3),url("../images/bg/BG-02.webp");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -115,7 +115,7 @@
     flex-direction: column;
     gap: 20px;
     padding: 40px;
-    background: linear-gradient(0deg, #000000da,#000000a3),url("../assets/images/bg/BG-02.webp");
+    background: linear-gradient(0deg, #000000da,#000000a3),url("../images/bg/BG-02.webp");
 }
 
 .Blog__img__container {
