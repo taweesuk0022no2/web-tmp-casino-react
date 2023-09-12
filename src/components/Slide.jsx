@@ -36,14 +36,14 @@ function Slide() {
       modules={[Autoplay, Pagination]}
       className="mySwiper"
     >
-      <SwiperSlide><img src={Slide01} alt="" /></SwiperSlide>
-      <SwiperSlide><img src={Slide02} alt="" /></SwiperSlide>
-      <SwiperSlide><img src={Slide03} alt="" /></SwiperSlide>
-      <SwiperSlide><img src={Slide04} alt="" /></SwiperSlide>
-      <SwiperSlide><img src={Slide05} alt="" /></SwiperSlide>
-      <SwiperSlide><img src={Slide06} alt="" /></SwiperSlide>
-      <SwiperSlide><img src={Slide07} alt="" /></SwiperSlide>
-      <SwiperSlide><img src={Slide08} alt="" /></SwiperSlide>
+      <SwiperSlide className='Slide__Header'><img src={Slide01} alt="" /></SwiperSlide>
+      <SwiperSlide className='Slide__Header'><img src={Slide02} alt="" /></SwiperSlide>
+      <SwiperSlide className='Slide__Header'><img src={Slide03} alt="" /></SwiperSlide>
+      <SwiperSlide className='Slide__Header'><img src={Slide04} alt="" /></SwiperSlide>
+      <SwiperSlide className='Slide__Header'><img src={Slide05} alt="" /></SwiperSlide>
+      <SwiperSlide className='Slide__Header'><img src={Slide06} alt="" /></SwiperSlide>
+      <SwiperSlide className='Slide__Header'><img src={Slide07} alt="" /></SwiperSlide>
+      <SwiperSlide className='Slide__Header'><img src={Slide08} alt="" /></SwiperSlide>
     </Swiper>
   )
 }
