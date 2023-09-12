@@ -11,7 +11,7 @@ import './Comments.css';
 // import required modules
 import { Autoplay, Pagination } from 'swiper/modules';
 
-import DataComments from '../data/DataComments.json'
+import DataComments from '../../data/DataComments.json'
 
 function Comments() {
   return (

@@ -6,8 +6,8 @@ import Comments from '../components/Comments'
 
 import './home.css'
 
-import Data from '../data/imgSlot.json';
-import GameRcm from '../data/rcmGame.json';
+import Data from '../../data/imgSlot.json';
+import GameRcm from '../../data/rcmGame.json';
 
 import SeoImg from '../assets/img/seo/SEO.webp'
 
