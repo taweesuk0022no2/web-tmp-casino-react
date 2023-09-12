@@ -1,0 +1,82 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    height: 350px;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-pagination-bullet {
+    background: #f4af40;
+    width: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+}
+
+.Comment__main__container {
+    padding: 20px;
+    background: linear-gradient(0deg, #00000066,#000000bc), url('../assets/img/bg/BG-Slot.webp');
+}
+
+.Header__comment {
+    color: #fff;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.Header__comment h1 {
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: clamp(24px, 2.5vw, 32px);
+}
+
+.Header__comment h2 {
+    font-weight: 500;
+    font-size: clamp(18px, 2.5vw, 24px);
+}
+
+.Header__comment span {
+    color: #fdad51;
+    font-size: clamp(18px, 2.5vw, 24px);
+}
+
+.Comment__card__container {
+    border-radius: 20px;
+    background: #ffffff67;
+    backdrop-filter: blur(10px);
+    box-shadow: inset 10px 10px 20px #c1c1c1, inset -10px -10px 20px #acacac;
+}
+
+.Comment__card {
+    padding: 20px;
+}
+
+.Comment__card h2,
+.Comment__card h4,
+.Comment__card h1 {
+    color: #fff;
+    font-weight: 500;
+}
+
+.Comment__card h2 {
+    font-size: clamp(18px, 2.5vw, 28px);
+    margin-bottom: 10px;
+}
+
+.Comment__card h4 {
+    font-size: clamp(11px, 2.5vw, 18px);
+}
+
+.Comment__card h1 {
+    font-size: clamp(16px, 2.5vw, 24px);
+    margin: 20px 0;
+}

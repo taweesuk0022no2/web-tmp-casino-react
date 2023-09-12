@@ -1,0 +1,110 @@
+[
+    {
+        "id": "1",
+        "nameCmp": "PG",
+        "imageSrc": "/src/assets/img/gameRcm/pg-13.webp",
+        "nameGame": "AZTEC"
+    },
+    {
+        "id": "2",
+        "nameCmp": "PG",
+        "imageSrc": "/src/assets/img/gameRcm/pg-01.webp",
+        "nameGame": "Mermaid Riches X PG"
+    },
+    {
+        "id": "3",
+        "nameCmp": "PG",
+        "imageSrc": "/src/assets/img/gameRcm/pg-02.webp",
+        "nameGame": "Raider Jane's Crypt of Fortune"
+    },
+    {
+        "id": "4",
+        "nameCmp": "PG",
+        "imageSrc": "/src/assets/img/gameRcm/pg-03.webp",
+        "nameGame": "Groundhog Harvest"
+    },
+    {
+        "id": "5",
+        "nameCmp": "PG",
+        "imageSrc": "/src/assets/img/gameRcm/pg-04.webp",
+        "nameGame": "Ways of The Qilin"
+    },
+    {
+        "id": "6",
+        "nameCmp": "PG",
+        "imageSrc": "/src/assets/img/gameRcm/pg-05.webp",
+        "nameGame": "Wild Bandito"
+    },
+    {
+        "id": "7",
+        "nameCmp": "PG",
+        "imageSrc": "/src/assets/img/gameRcm/pg-06.webp",
+        "nameGame": "Fortune Ox"
+    },
+    {
+        "id": "8",
+        "nameCmp": "PG",
+        "imageSrc": "/src/assets/img/gameRcm/pg-07.webp",
+        "nameGame": "Lucky Nako"
+    },
+    {
+        "id": "9",
+        "nameCmp": "PG",
+        "imageSrc": "/src/assets/img/gameRcm/pg-08.webp",
+        "nameGame": "Queen of Bounty"
+    },
+    {
+        "id": "10",
+        "nameCmp": "PG",
+        "imageSrc": "/src/assets/img/gameRcm/pg-09.webp",
+        "nameGame": "Vampire Charm"
+    },
+    {
+        "id": "11",
+        "nameCmp": "PG",
+        "imageSrc": "/src/assets/img/gameRcm/pg-10.webp",
+        "nameGame": "Secret of Cleopatra"
+    },
+    {
+        "id": "12",
+        "nameCmp": "PG",
+        "imageSrc": "/src/assets/img/gameRcm/pg-11.webp",
+        "nameGame": "Thai River Wonders"
+    },
+    {
+        "id": "13",
+        "nameCmp": "PG",
+        "imageSrc": "/src/assets/img/gameRcm/pg-12.webp",
+        "nameGame": "Jurassic Kingdom"
+    },
+    {
+        "id": "14",
+        "nameCmp": "PG",
+        "imageSrc": "/src/assets/img/gameRcm/pg-15.webp",
+        "nameGame": "Ganesha Fortune"
+    },
+    {
+        "id": "15",
+        "nameCmp": "PG",
+        "imageSrc": "/src/assets/img/gameRcm/pg-16.webp",
+        "nameGame": "Caishen Wins"
+    },
+    {
+        "id": "16",
+        "nameCmp": "PG",
+        "imageSrc": "/src/assets/img/gameRcm/pg-17.webp",
+        "nameGame": "Joueney to the Wealth"
+    },
+    {
+        "id": "17",
+        "nameCmp": "PG",
+        "imageSrc": "/src/assets/img/gameRcm/pg-19.webp",
+        "nameGame": "Mahjong Ways2"
+    },
+    {
+        "id": "18",
+        "nameCmp": "PG",
+        "imageSrc": "/src/assets/img/gameRcm/pg-20.webp",
+        "nameGame": "Tree of Fortune"
+    }
+]
