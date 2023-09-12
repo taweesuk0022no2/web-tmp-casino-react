@@ -1,112 +1,112 @@
 [
     {
         "id": "1",
-        "src": "./src/assets/img/slot/aegaming.webp",
+        "src": "/public/img/slot/aegaming.webp",
         "name": "AE GAMING"
     },
     {
         "id": "2",
-        "src": "./src/assets/img/slot/amb.webp",
+        "src": "/public/img/slot/amb.webp",
         "name": "AMB SLOT"
     },
     {
         "id": "3",
-        "src": "./src/assets/img/slot/bs.webp",
+        "src": "/public/img/slot/bs.webp",
         "name": "BET SLOT GAMING"
     },
     {
         "id": "4",
-        "src": "./src/assets/img/slot/cq9.webp",
+        "src": "/public/img/slot/cq9.webp",
         "name": "CQ9"
     },
     {
         "id": "5",
-        "src": "./src/assets/img/slot/ep.webp",
+        "src": "/public/img/slot/ep.webp",
         "name": "EVOPLAY"
     },
     {
         "id": "6",
-        "src": "./src/assets/img/slot/fk.webp",
+        "src": "/public/img/slot/fk.webp",
         "name": "FUNKY GAMING"
     },
     {
         "id": "7",
-        "src": "./src/assets/img/slot/gamatron.webp",
+        "src": "/public/img/slot/gamatron.webp",
         "name": "GAMATRON"
     },
     {
         "id": "8",
-        "src": "./src/assets/img/slot/jk.webp",
+        "src": "/public/img/slot/jk.webp",
         "name": "JOKER GAMING"
     },
     {
         "id": "9",
-        "src": "./src/assets/img/slot/jl.webp",
+        "src": "/public/img/slot/jl.webp",
         "name": "JILI"
     },
     {
         "id": "10",
-        "src": "./src/assets/img/slot/kag.webp",
+        "src": "/public/img/slot/kag.webp",
         "name": "KA GAMING"
     },
     {
         "id": "11",
-        "src": "./src/assets/img/slot/km.webp",
+        "src": "/public/img/slot/km.webp",
         "name": "KINGMAKER"
     },
     {
         "id": "12",
-        "src": "./src/assets/img/slot/mg.webp",
+        "src": "/public/img/slot/mg.webp",
         "name": "MICROGAMING"
     },
     {
         "id": "13",
-        "src": "./src/assets/img/slot/ne.webp",
+        "src": "/public/img/slot/ne.webp",
         "name": "NETENT"
     },
     {
         "id": "14",
-        "src": "./src/assets/img/slot/ng.webp",
+        "src": "/public/img/slot/ng.webp",
         "name": "NAGA GAMES"
     },
     {
         "id": "15",
-        "src": "./src/assets/img/slot/pg.webp",
+        "src": "/public/img/slot/pg.webp",
         "name": "POKET GAMES SOFT"
     },
     {
         "id": "16",
-        "src": "./src/assets/img/slot/playstar.webp",
+        "src": "/public/img/slot/playstar.webp",
         "name": "PLAYSTAR"
     },
     {
         "id": "17",
-        "src": "./src/assets/img/slot/pp.webp",
+        "src": "/public/img/slot/pp.webp",
         "name": "PRAGMATIC PLAY"
     },
     {
         "id": "18",
-        "src": "./src/assets/img/slot/qp.webp",
+        "src": "/public/img/slot/qp.webp",
         "name": "QUICKSPIN"
     },
     {
         "id": "19",
-        "src": "./src/assets/img/slot/r88.webp",
+        "src": "/public/img/slot/r88.webp",
         "name": "RICH88"
     },
     {
         "id": "20",
-        "src": "./src/assets/img/slot/sk.webp",
+        "src": "/public/img/slot/sk.webp",
         "name": "SKYWIND GROUP"
     },
     {
         "id": "21",
-        "src": "./src/assets/img/slot/sp.webp",
+        "src": "/public/img/slot/sp.webp",
         "name": "SIMPLE PLAY"
     },
     {
         "id": "22",
-        "src": "./src/assets/img/slot/tt.webp",
+        "src": "/public/img/slot/tt.webp",
         "name": "TOPTREND GAMING"
     }
 ]
