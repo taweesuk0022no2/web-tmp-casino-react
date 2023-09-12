@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Logo from "../assets/img/logo/Logo-worldslot-6-05.webp"
+import Logo from "../images/logo/Logo-worldslot-6-05.webp"
 import './Navbar.css'
 import { closeMenuNavbar } from "../js/closeNavbarMenu"
 import { openMenuNavbar } from "../js/openMenuNavbar"

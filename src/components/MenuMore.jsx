@@ -1,10 +1,10 @@
 import React from 'react'
 import './MenuMore.css'
 
-import button1 from "../assets/img/btnMenu/button1.webp"
-import button2 from "../assets/img/btnMenu/button2.webp"
-import button3 from "../assets/img/btnMenu/button3.webp"
-import button4 from "../assets/img/btnMenu/button4.webp"
+import button1 from "../images/btnMenu/button1.webp"
+import button2 from "../images/btnMenu/button2.webp"
+import button3 from "../images/btnMenu/button3.webp"
+import button4 from "../images/btnMenu/button4.webp"
 
 function MenuMore() {
   return (

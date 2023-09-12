@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
@@ -11,14 +11,14 @@ import './Swiper.css';
 // import required modules
 import { Autoplay, Pagination } from 'swiper/modules';
 
-import Slide01 from "../assets/img/slide/Slide-WS789-01.webp"
-import Slide02 from "../assets/img/slide/Slide-WS789-02.webp"
-import Slide03 from "../assets/img/slide/Slide-WS789-03.webp"
-import Slide04 from "../assets/img/slide/Slide-WS789-04.webp"
-import Slide05 from "../assets/img/slide/Slide-WS789-05.webp"
-import Slide06 from "../assets/img/slide/Slide-WS789-06.webp"
-import Slide07 from "../assets/img/slide/Slide-WS789-07.webp"
-import Slide08 from "../assets/img/slide/Slide-WS789-08.webp"
+import Slide01 from "../images/slide/Slide-WS789-01.webp"
+import Slide02 from "../images/slide/Slide-WS789-02.webp"
+import Slide03 from "../images/slide/Slide-WS789-03.webp"
+import Slide04 from "../images/slide/Slide-WS789-04.webp"
+import Slide05 from "../images/slide/Slide-WS789-05.webp"
+import Slide06 from "../images/slide/Slide-WS789-06.webp"
+import Slide07 from "../images/slide/Slide-WS789-07.webp"
+import Slide08 from "../images/slide/Slide-WS789-08.webp"
 
 function Slide() {
   return (
