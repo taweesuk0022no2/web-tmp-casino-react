@@ -6,8 +6,8 @@ import Comments from '../components/Comments'
 
 import './home.css'
 
-import data from '../data/imgSlot.json';
-import gameRcm from '../data/rcmGame.json';
+import Data from '../data/imgSlot';
+import GameRcm from '../data/rcmGame';
 
 import SeoImg from '../assets/img/seo/SEO.webp'
 
@@ -32,7 +32,7 @@ function home() {
         </div>
 
           <div className='RcmGame__img__container'>
-            {data.map((item, index) => (
+            {Data.map((item, index) => (
               <div key={item.id}>
                 <div className="RcmGame__card-game">
                   <img src={item.src} alt={item.id} className="BgCard" />
@@ -57,7 +57,7 @@ function home() {
         </div>
 
           <div className='RcmGame__img__container'>
-            {gameRcm.map((item, index) => (
+            {GameRcm.map((item, index) => (
               <div key={item.id}>
                 <div className="RcmGame__card-game">
                   <img src={item.imageSrc} alt={item.nameGame} className="BgCard" />
