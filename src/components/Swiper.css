@@ -29,7 +29,7 @@
 }
 
   @media screen and (max-width: 1030px) {
-    .swiper-slide {
+    .swiper-slide.Slide__Header {
       height: 100%;
     }
   }
