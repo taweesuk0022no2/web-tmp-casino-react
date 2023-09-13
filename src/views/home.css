@@ -7,6 +7,25 @@
     color: #fff;
 }
 
+.Contact__icon {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    z-index: 99;
+}
+
+.Contact__icon a img {
+    width: 100%;
+    max-width: 150px;
+    filter: drop-shadow(0 0 20px #000);
+    transition: all .5s;
+}
+
+.Contact__icon a img:hover {
+    transform: scale(1.1);
+}
+
 .RcmGame {
     background: linear-gradient(0deg, #000000da,#000000a3),url("../images/bg/BG-02.webp");
     background-position: center;

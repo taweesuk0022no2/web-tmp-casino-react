@@ -11,6 +11,7 @@ import Data from '../data/imgSlot.json';
 import GameRcm from '../data/rcmGame.json';
 
 import SeoImg from '../images/seo/SEO.webp'
+import BtnContact from '../images/btnMenu/button5.webp'
 
 function home() {
 
@@ -18,6 +19,12 @@ function home() {
     <>
       <Navbar />
       <Slide />
+
+      <div className="Contact__icon">
+        <a href="#">
+          <img src={BtnContact} alt="" />
+        </a>
+      </div>
 
       <marquee className='News' direction="left">ยินดีต้อนรับ ที่นี่คือ WORLDSLOT-789.APP</marquee>
 
