@@ -4,9 +4,7 @@ import App from './App.jsx'
 import './index.css'
 import {
   createBrowserRouter,
-  RouterProvider,
-  Route,
-  Link
+  RouterProvider
 } from 'react-router-dom';
 import Home from './components/Home.jsx';
 import Slot from './components/Slot.jsx';
@@ -23,27 +21,27 @@ const router = createBrowserRouter([
     element: <Home />
   },
   {
-    path: "/slot",
+    path: "slot",
     element: <Slot />
   },
   {
-    path: "/liveCasino",
+    path: "liveCasino",
     element: <LiveCasino />
   },
   {
-    path: "/fishing",
+    path: "fishing",
     element: <Fishing />
   },
   {
-    path: "/card",
+    path: "card",
     element: <CardGames />
   },
   {
-    path: "/login",
+    path: "login",
     element: <Login />
   },
   {
-    path: "/register",
+    path: "register",
     element: <Register />
   },
 ])

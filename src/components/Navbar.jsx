@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from "../images/logo/Logo-worldslot-6-05.webp"
 import './Navbar.css'
+import { Link } from 'react-router-dom'
 
 function Navbar() {
     function openMenuNavbar() {
@@ -23,9 +24,9 @@ function Navbar() {
                     menu
                 </button>
 
-                <a href="/">
+                <Link to="/">
                     <img width={250} src={Logo} alt="" />
-                </a>
+                </Link>
             </div>
 
             <div className="Navbar__link-list">
@@ -35,41 +36,41 @@ function Navbar() {
 
                 <ul>
                     <li>
-                        <a href="/" className='active'>
+                        <Link to="/" className='active'>
                             หน้าแรก
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="/slot">
+                        <Link to="/slot">
                             สล็อต
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="/liveCasino">
+                        <Link to="/liveCasino">
                             คาสิโนสด
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="/fishing">
+                        <Link to="/fishing">
                             ยิงปลา
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="/card">
+                        <Link to="/card">
                             เกมส์การ์ด
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </div>
 
             <div className="Navbar__btn">
                 <div className="Navbar__btn--rows">
-                    <a className='Navbar__btn--signin' href="/login">
+                    <Link className='Navbar__btn--signin' to="/login">
                         เข้าสู่ระบบ
-                    </a>
-                    <a className='Navbar__btn--signup' href="/register">
+                    </Link>
+                    <Link className='Navbar__btn--signup' to="/register">
                         สมัครสมาชิก
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>
