@@ -1,9 +1,9 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
-import Slide from "../components/Slide"
-import MenuMore from '../components/MenuMore'
-import Comments from '../components/Comments'
-import Footer from '../components/Footer';
+import Navbar from './Navbar'
+import Slide from "./Slide"
+import MenuMore from './MenuMore'
+import Comments from './Comments'
+import Footer from './Footer';
 import './Home.css';
 import Data from '../data/imgSlot.json';
 import GameRcm from '../data/rcmGame.json';
