@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import BtnBack from '../../images/btnMenu/button6.webp'
 import './Register.css'
+import axios from 'axios'
 
 function Register() {
 
@@ -61,8 +62,16 @@ function Register() {
       alert('Please enter a Bank No.');
       return;
     }
-    alert('สมัครเรียบร้อยแล้ว!');
-    // Send these values to server or do anything else you'd like
+    
+    // ส่งข้อมูลไปยัง Backend
+    axios.post('http://localhost:5173/register', formData)
+    .then(response => {
+      alert('สมัครเรียบร้อยแล้ว!');
+    })
+    .catch(error => {
+      console.log(error);
+      alert('มีข้อผิดพลาดเกิดขึ้น');
+    });
   };
 
   return (
