@@ -1,7 +1,7 @@
 import React from 'react'
 import Logo from "../images/logo/Logo-worldslot-6-05.webp"
 import './Navbar.css'
-import { BrowserRouter, Route, Link, Routes } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
     function openMenuNavbar() {
