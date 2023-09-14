@@ -1,15 +1,12 @@
 import React from 'react'
-import Navbar from "../components/Navbar"
+import Navbar from '../components/Navbar'
 import Slide from "../components/Slide"
 import MenuMore from '../components/MenuMore'
 import Comments from '../components/Comments'
-import Footer from '../components/Footer'
-
-import './home.css'
-
+import Footer from '../components/Footer';
+import './Home.css';
 import Data from '../data/imgSlot.json';
 import GameRcm from '../data/rcmGame.json';
-
 import SeoImg from '../images/seo/SEO.webp'
 import BtnContact from '../images/btnMenu/button5.webp'
 

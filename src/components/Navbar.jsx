@@ -1,10 +1,20 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Logo from "../images/logo/Logo-worldslot-6-05.webp"
 import './Navbar.css'
-import { closeMenuNavbar } from "../js/closeNavbarMenu"
-import { openMenuNavbar } from "../js/openMenuNavbar"
 
 function Navbar() {
+    function openMenuNavbar() {
+        const menuNavbars = document.querySelector('.Navbar__link-list')
+    
+        menuNavbars.classList.add('active')
+    }
+
+    function closeMenuNavbar() {
+        const menuNavbars = document.querySelector('.Navbar__link-list')
+    
+        menuNavbars.classList.remove('active')
+    }
+
   return (
     <>
         <div className="Navbar">
@@ -25,27 +35,27 @@ function Navbar() {
 
                 <ul>
                     <li>
-                        <a href="#" className='active'>
+                        <a href="/" className='active'>
                             หน้าแรก
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="/slot">
                             สล็อต
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="/liveCasino">
                             คาสิโนสด
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="fishing">
                             ยิงปลา
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="cardGames">
                             เกมส์การ์ด
                         </a>
                     </li>
@@ -54,10 +64,10 @@ function Navbar() {
 
             <div className="Navbar__btn">
                 <div className="Navbar__btn--rows">
-                    <a className='Navbar__btn--signin' href="#">
+                    <a className='Navbar__btn--signin' href="/login">
                         เข้าสู่ระบบ
                     </a>
-                    <a className='Navbar__btn--signup' href="#">
+                    <a className='Navbar__btn--signup' href="/register">
                         สมัครสมาชิก
                     </a>
                 </div>
