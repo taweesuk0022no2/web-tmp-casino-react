@@ -1,18 +1,17 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
 import './index.css'
 import {
   createBrowserRouter,
   RouterProvider
 } from 'react-router-dom';
-import Home from './components/Home.jsx';
-import Slot from './components/Slot.jsx';
-import LiveCasino from './components/LiveCasino.jsx'
-import Fishing from './components/Fishing.jsx'
-import CardGames from './components/GamesCard.jsx'
-import Login from './components/Login.jsx'
-import Register from './components/Register.jsx'
+import Home from './components/views/Home';
+import Slot from './components/views/Slot';
+import LiveCasino from './components/views/LiveCasino'
+import Fishing from './components/views/Fishing'
+import CardGames from './components/views/GamesCard'
+import Login from './components/views/Login'
+import Register from './components/views/Register'
 
 
 const router = createBrowserRouter([

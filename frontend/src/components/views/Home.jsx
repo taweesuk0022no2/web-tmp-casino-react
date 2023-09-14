@@ -1,14 +1,14 @@
 import React from 'react'
-import Navbar from './Navbar'
-import Slide from "./Slide"
-import MenuMore from './MenuMore'
-import Comments from './Comments'
-import Footer from './Footer';
+import Navbar from '../Navbar'
+import Slide from "../Slide"
+import MenuMore from '../MenuMore'
+import Comments from '../Comments'
+import Footer from '../Footer';
 import './Home.css';
-import Data from '../data/imgSlot.json';
-import GameRcm from '../data/rcmGame.json';
-import SeoImg from '../images/seo/SEO.webp'
-import BtnContact from '../images/btnMenu/button5.webp'
+import Data from '../../data/imgSlot.json';
+import GameRcm from '../../data/rcmGame.json';
+import SeoImg from '../../images/seo/SEO.webp'
+import BtnContact from '../../images/btnMenu/button5.webp'
 
 function home() {
 
