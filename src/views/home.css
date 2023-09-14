@@ -187,4 +187,8 @@
     .RcmGame__img__container {
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     }
+
+    .Contact__icon a img {
+        max-width: 100px;
+    }
 }

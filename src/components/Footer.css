@@ -69,6 +69,37 @@
     font-size: clamp(14px, 2.5vw, 18px);
 }
 
+.Bank__rows {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    max-width: 1700px;
+}
+
+.Bank__rows h2 {
+    color: #fff;
+    font-weight: 500;
+    font-size: clamp(18px, 2.5vw, 24px);
+}
+
+.Bank__rows__img__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    grid-gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.Bank__rows__img__container img {
+    width: 100%;
+    display: flex;
+    margin: 0;
+}
+
 @media screen and (max-width: 865px) {
     .Footer__copyright {
         flex-direction: column;
