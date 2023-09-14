@@ -70,6 +70,12 @@
 .RcmGame__img__container img {
     border-radius: 20px;
     width: 100%;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.RcmGame__img__container img:hover {
+    transform: scale(1.1);
 }
 
 .RcmGame__card-game {
