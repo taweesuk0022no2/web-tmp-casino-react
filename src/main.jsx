@@ -23,27 +23,27 @@ const router = createBrowserRouter([
     element: <Home />
   },
   {
-    path: "slot",
+    path: "/slot",
     element: <Slot />
   },
   {
-    path: "liveCasino",
+    path: "/liveCasino",
     element: <LiveCasino />
   },
   {
-    path: "fishing",
+    path: "/fishing",
     element: <Fishing />
   },
   {
-    path: "card",
+    path: "/card",
     element: <CardGames />
   },
   {
-    path: "login",
+    path: "/login",
     element: <Login />
   },
   {
-    path: "register",
+    path: "/register",
     element: <Register />
   },
 ])
